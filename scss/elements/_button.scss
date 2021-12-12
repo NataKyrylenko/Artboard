@@ -1,0 +1,32 @@
+@mixin btn {
+  width: 228px;
+  height: 63px;
+  background: linear-gradient(
+    45deg,
+    rgb(73, 107, 254) 43%,
+    rgb(84, 116, 253) 2%
+  );
+}
+@mixin link {
+  color: $primary-color;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  font-family: $font-second;
+}
+.btn {
+  @include btn;
+  padding: 18px 35px;
+  margin: 50px 0 95px;
+  &__link {
+    @include link;
+  }
+}
+.button {
+  @include btn;
+  opacity: 1;
+  padding: 22px 56px;
+  &__link {
+    @include link;
+  }
+}
