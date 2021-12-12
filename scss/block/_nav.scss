@@ -9,6 +9,9 @@
     align-items: center;
     justify-content: space-between;
   }
+  &-burger {
+    display: none;
+  }
 }
 .menu {
   display: flex;

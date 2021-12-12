@@ -1,0 +1,63 @@
+@media screen and (max-width: $xs-max) {
+  .header-content {
+    padding: 150px 0 50px;
+    &__title {
+      font-size: 30px;
+    }
+    &__text {
+      font-size: 16px;
+      letter-spacing: 4px;
+    }
+  }
+
+  .form {
+    &__input {
+      width: 200px;
+      padding: 5px;
+      font-size: 10px;
+    }
+    &__btn {
+      width: 75px;
+      font-size: 13px;
+      padding: 0;
+    }
+    &__icon {
+      display: none;
+    }
+  }
+  .choose {
+    &-pic {
+      &__img {
+        &-top {
+          height: 150px;
+          margin: 10px auto;
+        }
+        &-bottom {
+          height: 150px;
+          margin: 10px auto;
+        }
+      }
+    }
+  }
+  .icons-block {
+    &__item {
+      margin: 20px 0;
+    }
+    &__title {
+      font-size: 14px;
+    }
+  }
+  .grand-top__inner {
+    padding: 40px 0;
+  }
+  .grand-bot__inner {
+    padding: 40px 0;
+  }
+  .container-text {
+    width: 60%;
+    padding: 10px;
+    &__text {
+      margin-bottom: 25px;
+    }
+  }
+}

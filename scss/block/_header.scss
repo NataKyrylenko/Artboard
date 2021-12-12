@@ -22,7 +22,6 @@
       line-height: 26px;
       font-weight: bold;
       letter-spacing: 4.8px;
-
       color: $primary-color;
       margin-bottom: 11px;
     }
@@ -68,8 +67,8 @@
       background-color: #0e237e;
       transition: 0.5s;
     }
-    &__icon {
-      margin-left: 10px;
-    }
+  }
+  &__icon {
+    margin-left: 10px;
   }
 }

@@ -19,15 +19,13 @@
   background-image: url("../img/s-top.jpg");
   background-size: cover;
   background-position: center;
+  &-inner {
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
 }
-
-.inner {
-  max-width: 1110px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-}
-
 .choose-content {
   width: 89%;
   margin: 212px 0 34px;
@@ -56,6 +54,12 @@
 .icons {
   background-color: $dark-color;
   position: relative;
+  &-inner {
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
   &-block {
     width: 33%;
     display: flex;
