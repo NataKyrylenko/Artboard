@@ -37,7 +37,7 @@
   }
   &__text {
     @include text;
-    letter-spacing: 2.4px;
+    letter-spacing: 1.5px;
     color: $main-color;
     margin-bottom: 23px;
   }
@@ -137,7 +137,7 @@
   &__pretitle {
     @include pretitle;
     color: $main-color;
-    margin-bottom: 23px;
+    margin-bottom: 19px;
   }
   &__title {
     @include pretitle;
@@ -165,7 +165,7 @@
     @include title;
     font-family: $font-second;
     color: $primary-color;
-    padding: 126px 0 91px;
+    padding: 125px 0 91px;
   }
   &-content {
     display: flex;

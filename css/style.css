@@ -99,7 +99,7 @@ img {
 .header-content {
   text-align: center;
   margin: 0 auto;
-  padding: 285px 0 140px;
+  padding: 304px 0 140px;
 }
 .header-content__title {
   font-family: "Josefin Sans", sans-serif;
@@ -117,12 +117,12 @@ img {
   letter-spacing: 6.82px;
   color: #ffff;
   font-weight: 400;
-  margin-bottom: 60px;
+  margin-bottom: 48px;
   text-align: center;
 }
 
 .form {
-  margin-bottom: 90px;
+  margin-bottom: 110px;
 }
 .form__input {
   width: 503px;
@@ -228,7 +228,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  letter-spacing: 2.4px;
+  letter-spacing: 1.5px;
   color: #e8e8e8;
   margin-bottom: 23px;
 }
@@ -329,7 +329,7 @@ img {
   font-weight: 400;
   line-height: 26px;
   color: #e8e8e8;
-  margin-bottom: 23px;
+  margin-bottom: 19px;
 }
 .container-text__title {
   font-family: "Josefin Sans", sans-serif;
@@ -364,7 +364,7 @@ img {
   line-height: 26px;
   font-family: "Aleo", serif;
   color: #ffff;
-  padding: 126px 0 91px;
+  padding: 125px 0 91px;
 }
 .testimonial-content {
   display: flex;

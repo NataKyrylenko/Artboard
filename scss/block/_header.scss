@@ -21,7 +21,7 @@
   &-content {
     text-align: center;
     margin: 0 auto;
-    padding: 285px 0 140px;
+    padding: 304px 0 140px;
     &__title {
       font-family: $font-primary;
       font-size: $big-title-size;
@@ -38,13 +38,13 @@
       letter-spacing: 6.82px;
       color: $primary-color;
       font-weight: 400;
-      margin-bottom: 60px;
+      margin-bottom: 48px;
       text-align: center;
     }
   }
 }
 .form {
-  margin-bottom: 90px;
+  margin-bottom: 110px;
   &__input {
     width: 503px;
     background-color: $primary-color;
