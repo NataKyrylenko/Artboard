@@ -10,8 +10,7 @@
 }
 @mixin link {
   color: $primary-color;
-  font-size: 16px;
-  line-height: 26px;
+  @include text;
   letter-spacing: 1.2px;
   font-family: $font-second;
 }
@@ -22,12 +21,19 @@
   &__link {
     @include link;
   }
+  &:hover {
+    border: 2px solid $primary-color;
+    transform: scale(1.1);
+  }
 }
 .button {
   @include btn;
-  opacity: 1;
   padding: 22px 0;
   &__link {
     @include link;
+  }
+  &:hover {
+    border: 2px solid $primary-color;
+    transform: scale(1.1);
   }
 }

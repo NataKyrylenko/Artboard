@@ -1,19 +1,19 @@
 @mixin title {
   font-weight: 400;
   font-size: 36px;
-  line-height: 26px;
+  line-height: $line-height;
 }
 @mixin pretitle {
   font-family: $font-primary;
   font-size: 20px;
   font-weight: 400;
-  line-height: 26px;
+  line-height: $line-height;
 }
 @mixin text {
   font-family: $font-primary;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: $size-text;
+  line-height: $line-height;
 }
 .choose {
   background-image: url("../img/s-top.jpg");
@@ -36,8 +36,7 @@
     margin-bottom: 50px;
   }
   &__text {
-    font-size: 16px;
-    line-height: 26px;
+    @include text;
     letter-spacing: 2.4px;
     color: $main-color;
     margin-bottom: 23px;
@@ -46,9 +45,17 @@
 .choose-pic {
   &__img-top {
     margin: 0 0 10px 110px;
+
+    &:hover {
+      border: 3px solid $bkg-btn;
+    }
   }
   &__img-bottom {
     margin: 0 0 0 200px;
+
+    &:hover {
+      border: 3px solid $bkg-btn;
+    }
   }
 }
 .icons {
@@ -123,7 +130,7 @@
 }
 .container-text {
   width: 49%;
-  background: #232323;
+  background-color: $curtain-color;
   opacity: 0.9;
   padding: 53px 30px;
 
@@ -138,11 +145,8 @@
     margin-bottom: 13px;
   }
   &__text {
-    font-family: $font-primary;
-    font-size: 16px;
-    line-height: 26px;
+    @include text;
     color: $main-color;
-    font-weight: 400;
     margin-bottom: 47px;
   }
 }
@@ -169,7 +173,7 @@
     &__info {
       padding: 47px 24px 29px 60px;
       text-align: start;
-      background-color: #333333;
+      background-color: $sect-color;
     }
     &__pretitle {
       @include pretitle;
@@ -182,7 +186,7 @@
       &_before {
         font-family: "FontAwesome";
         font-size: 36px;
-        color: #5474fd;
+        color: $bkg-btn;
         margin-right: 12px;
       }
     }

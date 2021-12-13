@@ -1,5 +1,5 @@
 .footer {
-  background-color: #919191;
+  background-color: $footer-bkg;
   text-align: center;
   padding: 120px 0 52px;
   &__text {
@@ -10,10 +10,10 @@
   }
   &-icons {
     &__icon {
-      color: #c8c8c8;
+      color: $icon-color;
       margin: 0 10px;
       &:hover {
-        color: #a9b9fe;
+        color: $hover-color;
       }
     }
   }

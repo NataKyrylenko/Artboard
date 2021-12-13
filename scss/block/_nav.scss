@@ -1,5 +1,5 @@
 .nav {
-  background-color: #5474fd;
+  background-color: $bkg-btn;
   width: 100%;
 
   &-inner {
@@ -18,8 +18,7 @@
   padding: 27px 0;
   &__link {
     font-family: $font-second;
-    font-size: 14px;
-    line-height: 26px;
+    @include head;
     color: $primary-color;
   }
 }

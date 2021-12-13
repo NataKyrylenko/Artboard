@@ -2,8 +2,8 @@
   &-text {
     font-family: $font-primary;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 26px;
+    font-size: $logo-size;
+    line-height: $line-height;
     letter-spacing: 2.4px;
     color: $primary-color;
   }
