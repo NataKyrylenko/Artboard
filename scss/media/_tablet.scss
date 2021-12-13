@@ -129,10 +129,14 @@
       justify-content: center;
       &__info {
         width: 80%;
+        padding: 25px;
       }
       &__img {
         width: 80%;
       }
     }
+  }
+  .footer {
+    padding: 55px 0;
   }
 }

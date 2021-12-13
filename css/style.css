@@ -591,9 +591,14 @@ img {
   }
   .testimonial-content__info {
     width: 80%;
+    padding: 25px;
   }
   .testimonial-content__img {
     width: 80%;
+  }
+
+  .footer {
+    padding: 55px 0;
   }
 }
 @media screen and (max-width: 767px) {
@@ -632,6 +637,8 @@ img {
   }
 
   .icons-block__item {
+    width: 35px;
+    height: 35px;
     margin: 20px 0;
   }
   .icons-block__title {
